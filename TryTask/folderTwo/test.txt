@@ -1,0 +1,1 @@
+This file is checking the way for these all file's data is completely single time paste or again paste in this file.  

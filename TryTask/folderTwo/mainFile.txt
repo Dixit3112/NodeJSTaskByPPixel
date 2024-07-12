@@ -1,3 +1,0 @@
-
-Folder=> folderTwo
-File=> folderTwo\mainFile.txt
