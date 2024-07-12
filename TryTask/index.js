@@ -12,17 +12,20 @@ const ensureDirectoryExistence = (filePath) => {
 };
 
 // Function to read and merge files
-const mergeFiles = async (dir, mainFilePath) => {
+const mergeFiles = async (dir, main) => {
     const files = fs.readdirSync(dir);
 
     for (const file of files) {
         const filePath = path.join(dir, file);
+        if (filePath === path.resolve(main)) {
+            continue;
+        }
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
             // Recursively process folders
-            await mergeFiles(filePath, mainFilePath);
-        } else if (path.extname(file) !== '.js') {
+            await mergeFiles(filePath, main);
+        } else if (path.extname(file) !== '.js' && file !== path.basename(main)) {
             // Read file data and append to the main file if it's not a .js file
             const data = await new Promise((resolve, reject) => {
                 fs.readFile(filePath, 'utf-8', (err, data) => {
@@ -35,11 +38,11 @@ const mergeFiles = async (dir, mainFilePath) => {
             });
 
             const folderName = path.basename(path.dirname(filePath));
-            // Write the parent folder, file path, and file data
-            const contentToAppend = `\nParent Folder: ${folderName}\nFile's Path: ${filePath}\nFile's Data:${data}\n`;
+            // Write the parent folder's and file's path, file data
+            const contentToAppend = `Parent Folder: ${folderName}\nFile's Path: ${filePath}\nFile's Data:${data}\n\n`;
 
-            await new Promise((resolve, reject) => {
-                fs.appendFile(mainFilePath, contentToAppend, (err) => {
+            new Promise((resolve, reject) => {
+                fs.appendFile(main, contentToAppend, (err) => {
                     if (err) {
                         reject(err);
                     } else {
@@ -51,21 +54,12 @@ const mergeFiles = async (dir, mainFilePath) => {
     }
 };
 
-// Flag to ensure the function is called only once
-let isFunctionCalled = false;
-
 // Main function to execute the script
 const mainFunction = async () => {
-    if (isFunctionCalled) return;
-    isFunctionCalled = true;
-
     try {
-        const mainFilePath = 'main.txt';
-
-        // Ensure the main file exists
-        ensureDirectoryExistence(mainFilePath);
+        const main = 'main.txt';
         await new Promise((resolve, reject) => {
-            fs.writeFile(mainFilePath, "", (err) => {
+            fs.writeFile(main, "", (err) => {
                 if (err) {
                     reject(err);
                 } else {
@@ -75,9 +69,9 @@ const mainFunction = async () => {
         });
 
         // Start merging files from the current directory
-        await mergeFiles('.', mainFilePath);
+        await mergeFiles('.', main);
 
-        console.log("All files' data copied to main.txt successfully.");
+        console.log("All files' data paste into main.txt successfully.");
     } catch (error) {
         console.log("Error:", error);
     }
