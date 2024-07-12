@@ -1,0 +1,2 @@
+ file, we will handle functionality to convert CSV data to JSON.
+ We will call function CSVToJSON() on convert button click and pass CSV data to convert and display converted data.

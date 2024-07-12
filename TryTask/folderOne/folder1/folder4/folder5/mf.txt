@@ -1,0 +1,2 @@
+approach uses the csvtojson library to directly convert the CSV file to JSON.
+Remember to adjust.

@@ -1,0 +1,4 @@
+firstName: John, lastName: Doe, birthDate: 1980-01-01, position: Software Engineer
+firstName: Jane, lastName: Smith, birthDate: 1990-02-15, position: Project Manager
+firstName: Emily, lastName: Jones, birthDate: 1985-06-30, position: Product Designer
+firstName: Michael, lastName: Brown, birthDate: 1975-09-20, position: CTO

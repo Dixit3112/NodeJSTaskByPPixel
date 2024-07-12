@@ -1,0 +1,2 @@
+ction with your CSV data to get the corresponding JSON.
+Using a Library: There are libraries available that simplify this process. One such library is csvtojson. Here’s how you can u.

@@ -1,0 +1,172 @@
+
+Parent Folder: folder1
+File's Path: folder1\create.txt
+File's Data:In the recursion method, Base code is giving a function is calling by base code limitation. 
+
+Parent Folder: folderOne
+File's Path: folderOne\check.txt
+File's Data:checking to this fil's data are transfer to main file or not.
+
+Parent Folder: folder1
+File's Path: folderOne\folder1\ab.txt
+File's Data:ENOENT: no such file or directory, open 'C:\Users\krish\Desktop\Program code\dixit_react\OneNodeJS\TaskByOffice\TryTask\folderTwo\mainFile.txt']
+
+Parent Folder: folder1
+File's Path: folderOne\folder1\file1.txt
+File's Data:This is the first file.
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\cd.txt
+File's Data:directly convert the CSV file to JSON.
+Remember to adjust the code according to your spe
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\file2.txt
+File's Data:This is the second file.
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\file3.txt
+File's Data:This is the third file.
+
+Parent Folder: folder3
+File's Path: folderOne\folder1\folder3\file4.txt
+File's Data:This is a fourth file
+
+Parent Folder: folder3
+File's Path: folderOne\folder1\folder3\fr.txt
+File's Data:ction with your CSV data to get the corresponding JSON.
+Using a Library: There are libraries available that simplify this process. One such library is csvtojson. Here’s how you can u.
+
+Parent Folder: folder4
+File's Path: folderOne\folder1\folder4\file5.txt
+File's Data:This is a fifth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file6.txt
+File's Data:This is a sixth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file7.txt
+File's Data:This is a seventh file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file8.txt
+File's Data:This is a eighth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\gtr.txt
+File's Data:CSV files are a common file format used to store data in a table-like manner. 
+They can be particularly useful when a user intends to download structured information in a way that they can easily open and read on their local machine.
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\mf.txt
+File's Data:approach uses the csvtojson library to directly convert the CSV file to JSON.
+Remember to adjust.
+
+Parent Folder: folder4
+File's Path: folderOne\folder1\folder4\fro.txt
+File's Data: file, we will handle functionality to convert CSV data to JSON.
+ We will call function CSVToJSON() on convert button click and pass CSV data to convert and display converted data.
+
+Parent Folder: folderOne
+File's Path: folderOne\net.txt
+File's Data:CSV files are a common file format used to store data in a table-like manner.
+
+Parent Folder: folderThree
+File's Path: folderThree\nir.txt
+File's Data:The expression new RegExp(/ab+c/, flags) will create a new RegExp using the source of the first parameter and the flags provided by the second.
+
+Parent Folder: folderTwo
+File's Path: folderTwo\mainFile.txt
+File's Data:
+Folder=> folderTwo
+File=> folderTwo\mainFile.txt
+
+
+Parent Folder: .
+File's Path: main.txt
+File's Data:
+Parent Folder: folder1
+File's Path: folder1\create.txt
+File's Data:In the recursion method, Base code is giving a function is calling by base code limitation. 
+
+Parent Folder: folderOne
+File's Path: folderOne\check.txt
+File's Data:checking to this fil's data are transfer to main file or not.
+
+Parent Folder: folder1
+File's Path: folderOne\folder1\ab.txt
+File's Data:ENOENT: no such file or directory, open 'C:\Users\krish\Desktop\Program code\dixit_react\OneNodeJS\TaskByOffice\TryTask\folderTwo\mainFile.txt']
+
+Parent Folder: folder1
+File's Path: folderOne\folder1\file1.txt
+File's Data:This is the first file.
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\cd.txt
+File's Data:directly convert the CSV file to JSON.
+Remember to adjust the code according to your spe
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\file2.txt
+File's Data:This is the second file.
+
+Parent Folder: folder2
+File's Path: folderOne\folder1\folder2\file3.txt
+File's Data:This is the third file.
+
+Parent Folder: folder3
+File's Path: folderOne\folder1\folder3\file4.txt
+File's Data:This is a fourth file
+
+Parent Folder: folder3
+File's Path: folderOne\folder1\folder3\fr.txt
+File's Data:ction with your CSV data to get the corresponding JSON.
+Using a Library: There are libraries available that simplify this process. One such library is csvtojson. Here’s how you can u.
+
+Parent Folder: folder4
+File's Path: folderOne\folder1\folder4\file5.txt
+File's Data:This is a fifth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file6.txt
+File's Data:This is a sixth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file7.txt
+File's Data:This is a seventh file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\file8.txt
+File's Data:This is a eighth file
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\gtr.txt
+File's Data:CSV files are a common file format used to store data in a table-like manner. 
+They can be particularly useful when a user intends to download structured information in a way that they can easily open and read on their local machine.
+
+Parent Folder: folder5
+File's Path: folderOne\folder1\folder4\folder5\mf.txt
+File's Data:approach uses the csvtojson library to directly convert the CSV file to JSON.
+Remember to adjust.
+
+Parent Folder: folder4
+File's Path: folderOne\folder1\folder4\fro.txt
+File's Data: file, we will handle functionality to convert CSV data to JSON.
+ We will call function CSVToJSON() on convert button click and pass CSV data to convert and display converted data.
+
+Parent Folder: folderOne
+File's Path: folderOne\net.txt
+File's Data:CSV files are a common file format used to store data in a table-like manner.
+
+Parent Folder: folderThree
+File's Path: folderThree\nir.txt
+File's Data:The expression new RegExp(/ab+c/, flags) will create a new RegExp using the source of the first parameter and the flags provided by the second.
+
+Parent Folder: folderTwo
+File's Path: folderTwo\mainFile.txt
+File's Data:
+Folder=> folderTwo
+File=> folderTwo\mainFile.txt
+
+

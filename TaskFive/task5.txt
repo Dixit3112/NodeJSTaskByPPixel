@@ -1,0 +1,47 @@
+ParentFolder:=> folder21
+File's Path:=>folder21\file21-1.txt
+File's Value:=>This file check the surity of code.
+
+ParentFolder:=> folder1
+File's Path:=>folderOne\folder1\file1.txt
+File's Value:=>This is the first file.
+
+ParentFolder:=> folder2
+File's Path:=>folderOne\folder1\folder2\file2.txt
+File's Value:=>This is the second file.
+
+ParentFolder:=> folder2
+File's Path:=>folderOne\folder1\folder2\file3.txt
+File's Value:=>This is the third file.
+
+ParentFolder:=> folder3
+File's Path:=>folderOne\folder1\folder3\file4.txt
+File's Value:=>This is a fourth file
+
+ParentFolder:=> folder4
+File's Path:=>folderOne\folder1\folder4\file5.txt
+File's Value:=>This is a fifth file
+
+ParentFolder:=> folder5
+File's Path:=>folderOne\folder1\folder4\folder5\file6.txt
+File's Value:=>This is a sixth file
+
+ParentFolder:=> folder5
+File's Path:=>folderOne\folder1\folder4\folder5\file7.txt
+File's Value:=>This is a seventh file
+
+ParentFolder:=> folder5
+File's Path:=>folderOne\folder1\folder4\folder5\file8.txt
+File's Value:=>This is a eighth file
+
+ParentFolder:=> folderTwo
+File's Path:=>folderTwo\mainFile.txt
+File's Value:=>This is the first file.
+This is the second file.
+This is the third file.
+This is a fourth file
+This is a fifth file
+This is a sixth file
+This is a seventh file
+This is a eighth file
+

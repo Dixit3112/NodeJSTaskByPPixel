@@ -1,0 +1,1 @@
+In this Part, JSX render kari ne GUI show kare che project details, available projects, done projects, add project form, ane modals for selected project detail ane project edit

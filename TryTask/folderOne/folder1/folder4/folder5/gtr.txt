@@ -1,0 +1,2 @@
+CSV files are a common file format used to store data in a table-like manner. 
+They can be particularly useful when a user intends to download structured information in a way that they can easily open and read on their local machine.

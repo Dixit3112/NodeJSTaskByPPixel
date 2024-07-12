@@ -1,0 +1,1 @@
+In this task, I created a file and this file's text is transformed to another newFile and also delete the first data.

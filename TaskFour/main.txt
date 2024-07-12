@@ -1,0 +1,3 @@
+In the third task, I'm doing first, second, third file's data will transfer into main blank file by the node js;
+In the third task, I'm doing first, second, third file's data will transfer into main blank file by the node js, this is second file's data;
+In the third task, I'm doing first, second, third file's data will transfer into main blank file by the node js, this is third file's data.
